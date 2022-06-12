@@ -21,4 +21,15 @@ class Solution {
         }
         return (int) end;
     }
+    
+    static class PriorityNode{
+        int value;
+        int freq;
+        int index;
+        public PriorityNode(int value, int freq, int index) {
+            this.value = value;
+            this.freq = freq;
+            this.index = index;
+        }
+}
 }
