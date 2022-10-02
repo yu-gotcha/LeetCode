@@ -2,10 +2,6 @@ class Solution {
     public static final int N = 9;
     
     public boolean isValidSudoku(char[][] board) {
-        System.out.println(checkRow(board));
-        System.out.println(checkColumn(board));
-        System.out.println(checkSquare(board));
-        System.out.println(checkRow(board) && checkColumn(board) && checkSquare(board));
         return checkRow(board) && checkColumn(board) && checkSquare(board);
     }
     
